@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color:white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#main-container{
+    padding-top: 200px;
+    text-align: center;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 20px 15px;
+    display: inline-block;
+    letter-spacing: 3px;
+    font-size: 20px;
+
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+.btn-green{
+    color: white;
+    background-color: #3CC93F;
+}
+.btn-green:hover{
+    background-color: #37B839;
+    box-shadow: 0 0 10px #37B839, 0 0 40px #37B839, 0 0 80px #37B839;
+    transition-delay: 0.2s;
+}
+.btn-green:active{
+    background-color: #29962A;
+}
